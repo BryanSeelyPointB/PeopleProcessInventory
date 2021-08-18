@@ -1,0 +1,402 @@
+[
+  {
+    "Process": "Staffing",
+    "Team": "Resource Management",
+    "Category": "Opportunity Resourcing"
+  },
+  {
+    "Process": "New Hire Setup",
+    "Team": "Resource Management",
+    "Category": "Manage Supply"
+  },
+  {
+    "Process": "Post Hire Updates",
+    "Team": "Resource Management",
+    "Category": "Manage Supply"
+  },
+  {
+    "Process": "Terminations",
+    "Team": "Resource Management",
+    "Category": "Manage Supply"
+  },
+  {
+    "Process": "Create Capacity Plan",
+    "Team": "Resource Management",
+    "Category": "Capacity Planning"
+  },
+  {
+    "Process": "Manage Capacity Plan",
+    "Team": "Resource Management",
+    "Category": "Capacity Planning"
+  },
+  {
+    "Process": "Expense Reimbursement",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Allocation, Segmentation, Distribution",
+    "Team": "Benefits",
+    "Category": "ESOP"
+  },
+  {
+    "Process": "Send Talent Newsletter",
+    "Team": "Recruiting",
+    "Category": "Recruitment Marketing"
+  },
+  {
+    "Process": "Identify Internal Talent",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Employee Engagement",
+    "Team": "HR",
+    "Category": "Associate Culture"
+  },
+  {
+    "Process": "Aggregate Data",
+    "Team": "Reporting and Analytics",
+    "Category": "Data"
+  },
+  {
+    "Process": "Partner Ops - Identify Talent",
+    "Team": "Partner Ops",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Update Jobs Site",
+    "Team": "Recruiting",
+    "Category": "Recruitment Marketing"
+  },
+  {
+    "Process": "Identify Talent",
+    "Team": "Recruiting",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Screen Talent",
+    "Team": "Recruiting",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Acquire Talent",
+    "Team": "Recruiting",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Campus Event",
+    "Team": "Recruiting",
+    "Category": "Events"
+  },
+  {
+    "Process": "Job Fair",
+    "Team": "Recruiting",
+    "Category": "Events"
+  },
+  {
+    "Process": "Promote Postings",
+    "Team": "Recruiting",
+    "Category": "Recruitment Marketing"
+  },
+  {
+    "Process": "Post Jobs",
+    "Team": "Recruiting",
+    "Category": "Recruitment Marketing"
+  },
+  {
+    "Process": "PBD - Post Jobs",
+    "Team": "Point B Direct",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Payroll",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Scheduled Bonus",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Spot Bonus",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Rate Review",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Maintain Comp Grades",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Manage Comp Plans",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Severance",
+    "Team": "Compensation",
+    "Category": "Associate Compensation"
+  },
+  {
+    "Process": "Executive Compensation",
+    "Team": "Compensation",
+    "Category": "Executive Compensation"
+  },
+  {
+    "Process": "Eligibility/Join",
+    "Team": "Benefits",
+    "Category": "ESOP"
+  },
+  {
+    "Process": "Disability",
+    "Team": "Benefits",
+    "Category": "Claims"
+  },
+  {
+    "Process": "Life",
+    "Team": "Benefits",
+    "Category": "Claims"
+  },
+  {
+    "Process": "Initial Enrollment",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "Open Enrollment",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "Event Based Enrollment",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "ACA Reporting",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "Grant COBRA Eligibility",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "Manage Dependents and Beneficiaries",
+    "Team": "Benefits",
+    "Category": "Benefits"
+  },
+  {
+    "Process": "New Hires",
+    "Team": "HR",
+    "Category": "Staffing"
+  },
+  {
+    "Process": "Track Associate Performance",
+    "Team": "HR",
+    "Category": "Talent"
+  },
+  {
+    "Process": "Maintain Organization Hierarchies",
+    "Team": "HR",
+    "Category": "Worker Information Management"
+  },
+  {
+    "Process": "Parental Leave",
+    "Team": "HR",
+    "Category": "Absence Management"
+  },
+  {
+    "Process": "Leave of Absence",
+    "Team": "HR",
+    "Category": "Absence Management"
+  },
+  {
+    "Process": "Furlough",
+    "Team": "HR",
+    "Category": "Absence Management"
+  },
+  {
+    "Process": "ETL",
+    "Team": "Reporting and Analytics",
+    "Category": "Data"
+  },
+  {
+    "Process": "Visualize Data",
+    "Team": "Reporting and Analytics",
+    "Category": "Reports and Dashboards"
+  },
+  {
+    "Process": "Deliver Reports",
+    "Team": "Reporting and Analytics",
+    "Category": "Reports and Dashboards"
+  },
+  {
+    "Process": "Ad Hoc Reports",
+    "Team": "Reporting and Analytics",
+    "Category": "Reports and Dashboards"
+  },
+  {
+    "Process": "Create New Reports",
+    "Team": "Reporting and Analytics",
+    "Category": "Reports and Dashboards"
+  },
+  {
+    "Process": "Manage Existing Reports",
+    "Team": "Reporting and Analytics",
+    "Category": "Reports and Dashboards"
+  },
+  {
+    "Process": "PBD - Identify Talent",
+    "Team": "Point B Direct",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "PBD - Screen Talent",
+    "Team": "Point B Direct",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "PBD - Acquire Talent",
+    "Team": "Point B Direct",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "PBD - Groom Talent Pool",
+    "Team": "Point B Direct",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Partner Ops - Screen Talent",
+    "Team": "Partner Ops",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Partner Ops - Acquire Talent",
+    "Team": "Partner Ops",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Support Career Progression",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Create Trainings",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Manage Trainings",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Conduct Training",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Develop Core Skills",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Manage Career Paths",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Evaluate Performance",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Identify Skill Gaps and Opportunities",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Enable Feedback",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Partner Ops - Manage Agencies",
+    "Team": "Partner Ops",
+    "Category": "Agency Relations"
+  },
+  {
+    "Process": "Partner Ops - Post Jobs",
+    "Team": "Partner Ops",
+    "Category": "Talent Acquisition"
+  },
+  {
+    "Process": "Integrate Systems Data",
+    "Team": "Reporting and Analytics",
+    "Category": "Data"
+  },
+  {
+    "Process": "Groom Talent Pool",
+    "Team": "Recruiting",
+    "Category": "Talent Acqusition"
+  },
+  {
+    "Process": "Track Associate Skills",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Manage Skills Taxonomy",
+    "Team": "Learning and Development",
+    "Category": ""
+  },
+  {
+    "Process": "Manage Job Profiles",
+    "Team": "HR",
+    "Category": "Worker Information Management"
+  },
+  {
+    "Process": "Departures",
+    "Team": "HR",
+    "Category": "Staffing"
+  },
+  {
+    "Process": "Rehires",
+    "Team": "HR",
+    "Category": "Staffing"
+  },
+  {
+    "Process": "Job Changes",
+    "Team": "HR",
+    "Category": "Staffing"
+  },
+  {
+    "Process": "Capture Associate Preferences",
+    "Team": "HR",
+    "Category": "Worker Information Management"
+  },
+  {
+    "Process": "Succession Planning",
+    "Team": "HR",
+    "Category": "Talent"
+  },
+  {
+    "Process": "Workforce Management",
+    "Team": "HR",
+    "Category": "Staffing"
+  },
+  {
+    "Process": "Track Additional Roles",
+    "Team": "HR",
+    "Category": "Worker Information Management"
+  }
+]

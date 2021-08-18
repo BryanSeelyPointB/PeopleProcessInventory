@@ -1,0 +1,803 @@
+{
+  "children":[
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"ESOP",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Allocation, Segmentation, Distribution",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"ESOP",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Eligibility/Join",
+                    "size":1000
+                 }
+              ],
+              "count":2,
+              "color":"#99F0FF",
+              "name":"ESOP"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Claims",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Disability",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Claims",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Life",
+                    "size":1000
+                 }
+              ],
+              "count":2,
+              "color":"#99F0FF",
+              "name":"Claims"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Initial Enrollment",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Open Enrollment",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Event Based Enrollment",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"ACA Reporting",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Grant COBRA Eligibility",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Benefits",
+                    "Team":"Benefits",
+                    "color":"#96EFFF",
+                    "name":"Manage Dependents and Beneficiaries",
+                    "size":1000
+                 }
+              ],
+              "count":6,
+              "color":"#99F0FF",
+              "name":"Benefits"
+           }
+        ],
+        "count":10,
+        "color":"#59E6FF",
+        "name":"Benefits"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Expense Reimbursement",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Payroll",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Scheduled Bonus",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Spot Bonus",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Rate Review",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Maintain Comp Grades",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Manage Comp Plans",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Associate Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Severance",
+                    "size":1000
+                 }
+              ],
+              "count":8,
+              "color": "#A974E8",
+              "name":"Associate Compensation"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Executive Compensation",
+                    "Team":"Compensation",
+                    "color":"#C68BE8",
+                    "name":"Executive Compensation",
+                    "size":1000
+                 }
+              ],
+              "count":1,
+              "color": "#A974E8",
+              "name":"Executive Compensation"
+           }
+        ],
+        "count":9,
+        "color": "#9045E8",
+        "name":"Compensation"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"Associate Culture",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Employee Engagement",
+                    "size":1000
+                 }
+              ],
+              "count":1,
+              "color": "#79F28F",
+              "name":"Associate Culture"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Staffing",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"New Hires",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Staffing",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Departures",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Staffing",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Rehires",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Staffing",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Job Changes",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Staffing",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Workforce Management",
+                    "size":1000
+                 }
+              ],
+              "count":5,
+              "color": "#79F28F",
+              "name":"Staffing"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Talent",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Track Associate Performance",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Talent",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Succession Planning",
+                    "size":1000
+                 }
+              ],
+              "count":2,
+              "color": "#79F28F",
+              "name":"Talent"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Worker Information Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Maintain Organization Hierarchies",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Worker Information Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Manage Job Profiles",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Worker Information Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Capture Associate Preferences",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Worker Information Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Track Additional Roles",
+                    "size":1000
+                 }
+              ],
+              "count":4,
+              "color": "#79F28F",
+              "name":"Worker Information Management"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Absence Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Parental Leave",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Absence Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Leave of Absence",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Absence Management",
+                    "Team":"HR",
+                    "color":"#99FFAB",
+                    "name":"Furlough",
+                    "size":1000
+                 }
+              ],
+              "count":3,
+              "color": "#79F28F",
+              "name":"Absence Management"
+           }
+        ],
+        "count":15,
+        "color": "#5AE874",
+        "name":"HR"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Identify Internal Talent",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Support Career Progression",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Manage Career Paths",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Evaluate Performance",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Identify Skill Gaps and Opportunities",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Development",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Enable Feedback",
+                    "size":1000
+                 }
+              ],
+              "count":6,
+              "color": "#FFD059",
+              "name":"Development"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Learning",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Create Trainings",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Learning",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Manage Trainings",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Learning",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Conduct Training",
+                    "size":1000
+                 }
+              ],
+              "count":3,
+              "color": "#FFD059",
+              "name":"Learning"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Skills",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Develop Core Skills",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Skills",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Track Associate Skills",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Skills",
+                    "Team":"Learning and Development",
+                    "color":"#FFE882",
+                    "name":"Manage Skills Taxonomy",
+                    "size":1000
+                 }
+              ],
+              "count":3,
+              "color": "#FFD059",
+              "name":"Skills"
+           }
+        ],
+        "count":12,
+        "color": "#FFCC4C",
+        "name":"Learning and Development"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "children":[
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Partner Ops",
+                          "color":"#FFC9A6",
+                          "name":"Partner Ops - Identify Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Partner Ops",
+                          "color":"#FFC9A6",
+                          "name":"Partner Ops - Screen Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Partner Ops",
+                          "color":"#FFC9A6",
+                          "name":"Partner Ops - Acquire Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Partner Ops",
+                          "color":"#FFC9A6",
+                          "name":"Partner Ops - Post Jobs",
+                          "size":1000
+                       }
+                    ],
+                    "count":4,
+                    "color": "#FFBB99",
+                    "name":"Talent Acquisition"
+                 },
+                 {
+                    "children":[
+                       {
+                          "Cat":"Agency Relations",
+                          "Team":"Partner Ops",
+                          "color":"#FFC9A6",
+                          "name":"Partner Ops - Manage Agencies",
+                          "size":1000
+                       }
+                    ],
+                    "count":1,
+                    "color": "#FFBB99",
+                    "name":"Agency Relations"
+                 }
+              ],
+              "count":5,
+              "color": "#FFB27F ",
+              "name":"Partner Ops"
+           },
+           {
+              "children":[
+                 {
+                    "children":[
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Point B Direct",
+                          "color":"#FFC9A6",
+                          "name":"PBD - Post Jobs",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Point B Direct",
+                          "color":"#FFC9A6",
+                          "name":"PBD - Identify Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Point B Direct",
+                          "color":"#FFC9A6",
+                          "name":"PBD - Screen Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Point B Direct",
+                          "color":"#FFC9A6",
+                          "name":"PBD - Acquire Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Point B Direct",
+                          "color":"#FFC9A6",
+                          "name":"PBD - Groom Talent Pool",
+                          "size":1000
+                       }
+                    ],
+                    "count":5,
+                    "color": "#FFBB99",
+                    "name":"Talent Acquisition"
+                 }
+              ],
+              "count":5,
+              "color": "#FFB27F",
+              "name":"Point B Direct"
+           },
+           {
+              "children":[
+                 {
+                    "children":[
+                       {
+                          "Cat":"Recruitment Marketing",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Send Talent Newsletter",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Recruitment Marketing",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Update Jobs Site",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Recruitment Marketing",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Promote Postings",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Recruitment Marketing",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Post Jobs",
+                          "size":1000
+                       }
+                    ],
+                    "count":4,
+                    "color": "#FFBB99",
+                    "name":"Recruitment Marketing"
+                 },
+                 {
+                    "children":[
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Identify Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Screen Talent",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Talent Acquisition",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Acquire Talent",
+                          "size":1000
+                       },
+                       {
+                        "Cat":"Talent Acquisition",
+                        "Team":"Recruiting",
+                        "color":"#FFC9A6",
+                        "name":"Groom Talent Pool",
+                        "size":1000
+                     }
+                    ],
+                    "count":3,
+                    "color": "#FFBB99",
+                    "name":"Talent Acquisition"
+                 },
+                 {
+                    "children":[
+                       {
+                          "Cat":"Events",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Campus Event",
+                          "size":1000
+                       },
+                       {
+                          "Cat":"Events",
+                          "Team":"Recruiting",
+                          "color":"#FFC9A6",
+                          "name":"Job Fair",
+                          "size":1000
+                       }
+                    ],
+                    "count":2,
+                    "color": "#FFBB99",
+                    "name":"Events"
+                 }
+              ],
+              "count":10,
+              "color": "#FFB27F",
+              "name":"Point B"
+           }
+        ],
+        "color": "#FF9C5A",
+        "name":"Recruiting"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"Data",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Aggregate Data",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Data",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"ETL",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Data",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Integrate Systems Data",
+                    "size":1000
+                 }
+              ],
+              "count":3,
+              "color": "#FF927A",
+              "name":"Data"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Reports and Dashboards",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Visualize Data",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Reports and Dashboards",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Deliver Reports",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Reports and Dashboards",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Ad Hoc Reports",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Reports and Dashboards",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Create New Reports",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Reports and Dashboards",
+                    "Team":"Reporting and Analytics",
+                    "color":"#FF9B94",
+                    "name":"Manage Existing Reports",
+                    "size":1000
+                 }
+              ],
+              "count":5,
+              "color": "#FF927A",
+              "name":"Reports and Dashboards"
+           }
+        ],
+        "count":8,
+        "color": "#FF7C60",
+        "name":"Reporting and Analytics"
+     },
+     {
+        "children":[
+           {
+              "children":[
+                 {
+                    "Cat":"Opportunity Resourcing",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"Staffing",
+                    "size":1000
+                 }
+              ],
+              "count":1,
+              "color": "#59ffd3",
+              "name":"Opportunity Resourcing"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Manage Supply",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"New Hire Setup",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Manage Supply",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"Post Hire Updates",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Manage Supply",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"Terminations",
+                    "size":1000
+                 }
+              ],
+              "count":3,
+              "color": "#59ffd3",
+              "name":"Manage Supply"
+           },
+           {
+              "children":[
+                 {
+                    "Cat":"Capacity Planning",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"Create Capacity Plan",
+                    "size":1000
+                 },
+                 {
+                    "Cat":"Capacity Planning",
+                    "Team":"Resource Management",
+                    "color":"#bdffed",
+                    "name":"Manage Capacity Plan",
+                    "size":1000
+                 }
+              ],
+              "count":2,
+              "color": "#59ffd3",
+              "name":"Capacity Planning"
+           }
+        ],
+        "count":6,
+        "color": "#59FFD3",
+        "name":"Resource Management"
+     }
+  ],
+  "color":"#eee",
+  "name":"People Systems"
+}

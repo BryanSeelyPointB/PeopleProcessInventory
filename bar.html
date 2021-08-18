@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" typr="text/css" href="css\semantic.css">
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:IsMyDocuments msdt:dt="string">1</mso:IsMyDocuments>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<style>  
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    rect {
+        stroke: #fff;        
+    }
+    body {
+        margin: auto;
+        max-width: 1280px;
+        background-color: rgba(216, 216, 216, 0.2);
+        /*background-image: radial-gradient(circle farthest-corner at center bottom, #FFFFFF 0%, #D5EFDD 20%, #DCDEEF 30%, #DEEFCE 50%, #EFEEDC 70%, #DCDEEF 90%, #D5EFDD 100%);*/
+        background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=f7f7f7ff&noise=878787&density=15&opacity=14);
+    }
+</style>
+<h2 class="ui center aligned header">People Process Inventory
+<div class="sub header">Click to Zoom
+    </div>
+</h2>
+<div class="ui basic center aligned segment">
+ <a href="flare.html"><div class="ui tiny green button">Sunburst</div></a>
+</div>
+
+<div class="ui divider"></div>
+    <div id="bar"></div>
+    <div id="burst"></div>
+<body>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+<script>
+
+var w = 1280,
+    h = 800,
+    x = d3.scale.linear().range([0, w]),
+    y = d3.scale.linear().range([0, h]);
+
+var vis = d3.select("#bar").append("div")
+    .attr("class", "chart")
+    .style("width", w + "px")
+    .style("height", h + "px")
+    .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+var partition = d3.layout.partition()
+    .value(function(d) { return d.size; });
+
+d3.json("data.json", function(root) {
+  var g = vis.selectAll("g")
+      .data(partition.nodes(root))
+      .enter().append("svg:g")
+      .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; })
+      .on("click", click);
+
+  var kx = w / root.dx,
+      ky = h / 1;
+
+  g.append("svg:rect")
+      .attr("width", root.dy * kx)
+      .attr("height", function(d) { return d.dx * ky; })
+      .style("fill", function(d) { return d.color; }) 
+      .attr("class", function(d) { return d.children ? "parent" : "child"; });
+
+  g.append("svg:text")
+      .attr("transform", transform)
+      .attr("dy", ".35em")
+      .attr("xlink:href", function(d){return d.url;})
+      .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; })
+      .style("fill","#003349")
+      .text(function(d) { return d.name; })
+      //.on("click", function(d) { window.location = d.url;});
+
+  d3.select(window)
+      .on("click", function() { click(root); })
+
+  function click(d) {
+    if (!d.children) return;
+
+    kx = (d.y ? w - 40 : w) / (1 - d.y);
+    ky = h / d.dx;
+    x.domain([d.y, 1]).range([d.y ? 40 : 0, w]);
+    y.domain([d.x, d.x + d.dx]);
+
+    var t = g.transition()
+        .duration(d3.event.altKey ? 7500 : 750)
+        .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; });
+
+    t.select("rect")
+        .attr("width", d.dy * kx)
+        .attr("height", function(d) { return d.dx * ky; });
+
+    t.select("text")
+        .attr("transform", transform)
+        .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; });
+
+    d3.event.stopPropagation();
+  }
+
+  function transform(d) {
+    return "translate(8," + d.dx * ky / 2 + ")";
+  }
+});
+    </script>
+</body>
